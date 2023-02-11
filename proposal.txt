@@ -2,7 +2,7 @@ Name: Matt Hensley
 
 Stack: Python
 
-GitHub Repo: 
+GitHub Repo: https://github.com/hensleymd/character-project
 
 Project Name: Character Vault
 
