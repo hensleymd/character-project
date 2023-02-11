@@ -1,0 +1,16 @@
+Name: Matt Hensley
+
+Stack: Python
+
+GitHub Repo: 
+
+Project Name: Character Vault
+
+Project Description: A project used to create and store created characters for any game you want. 
+                     Simple at first but would be cool to get some templates, or even apis tied in in the future.
+
+MVP (Minimum Viable Product) Features: Login/register with validations, CRUD on non user table with validations,
+                                       routes outside of root protected via requiring being logged in, styled
+
+Bonus Features: For sure some implamentation of bootstrap, if time permits tying in an api could be neat, or even
+                some many-to-many relationships allowing people to like others creations
