@@ -119,6 +119,6 @@ class Character:
             flash ("Class must be 2 or more characters")
             is_valid = False
         if len(form_data["level"]) < 1:
-            flash ("Please select a level")
+            flash ("Level must be between 1 and 20")
             is_valid = False
         return is_valid
