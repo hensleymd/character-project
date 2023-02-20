@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='form_page_styles.css') }}">
+    <title>Create New Character</title>
+</head>
+<body class="create">
+    <div>
+        <h1 class="h1">Character Vault</h1>
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="/user/characters">My Characters</a>
+                <a href="/dashboard">Dashboard</a>
+                <a href="/logout">Logout</a>
+            </div>
+        </div>
+        <div class="d-inline-flex justify-content-center">
+            <form action="/characters/add_to_db" method="POST" class="col-6 p-4">
+                <div><h2>Create Character</h2>
+                    <div class="d-inline-block text-truncate">
+                        {% with messages = get_flashed_messages() %}     <!-- declare a variable called messages -->
+                            {% if messages %}                            <!-- check if there are any messages -->
+                                {% for message in messages %}            <!-- loop through the messages -->
+                                    <p class="alert alert-danger">{{message}}</p>                   <!-- display each message in a paragraph tag -->
+                                {% endfor %}
+                            {% endif %}
+                        {% endwith %}
+                    </div>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input class="namebox" type="text" name="name" id="name">
+                    </div>
+                    <div>
+                        <label for="race" class="label-col">Race:</label>
+                        <input class="namebox" type="text" name="race" id="race">
+                    </div>
+                    <div>
+                        <label for="classname" class="label-col">Class:</label>
+                        <input class="namebox" type="text" name="classname" id="classname">                
+                    </div>
+                    <div>
+                        <label for="date_made" class="label-col">Level:</label>
+                        <input type="number" class="form-control" name="level" id="level" min="1" max="20">
+                    </div>
+                </div>
+                <input type="submit" value="Create" class="btn btn-success m-3">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

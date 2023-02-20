@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.col {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.recipes {
+    margin-right: 25px;
+}
+
+.label-col {
+    width: 150px;
+    margin: 25px 0px;
+}
+.under {
+    margin-top: 50px;
+}
+
+.namebox{
+    width: 150%;
+}
+
+.buttons{
+    position: fixed;
+    top: 102px;
+    left: 700px;
+}
+
+.label {
+    font-size: large;
+    font-weight: bold;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+.my-characters {
+    color: rgb(246, 255, 0);
+    margin-right: 25px;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(https://wallpapercave.com/wp/wp2227257.jpg) no-repeat center center fixed; 
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.create {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(https://getwallpapers.com/wallpaper/full/c/f/6/157434.jpg) no-repeat center center fixed;
+    color: rgb(255, 255, 255);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.createform {
+    background-color: black;
+}
+
+input[type=text], input[type=email], input[type=password], input[type=number]{
+    background-color: black;
+    color: white;
+}
+
+.create-input {
+    background-color: gray;
+}
+
+.view {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(https://getwallpapers.com/wallpaper/full/9/b/e/157489.jpg) no-repeat center center fixed;
+    color: rgb(255, 255, 255);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.uservault {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(https://images2.alphacoders.com/491/491227.jpg) no-repeat center center fixed;
+    color: rgb(255, 255, 255);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.edit {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(https://cdn.wallpapersafari.com/50/92/p1KXes.jpg) no-repeat center center fixed; 
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.nav-title{
+    font-size: 250%;
+    color: white;
+    margin-left: 20px;
+    padding-right: 100px;
+}
+
+.dropdown {
+    display: inline-block;
+    margin:0px 0px 15px 15px;
+}
+
+.dropbtn {
+    background-color: #7f0000d2;
+    color: white;
+    padding: 3px;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 225%;
+}
+
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #b8b8b8;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #000000;
+}
+
+.h1 {
+    font-size: 300%;
+    margin: 15px 0px 15px 15px;
+}

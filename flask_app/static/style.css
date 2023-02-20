@@ -1,0 +1,19 @@
+h1 {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+body { 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    background: url(https://www.background-pictures.com/wp-content/uploads/2021/07/dnd-backgrounds-0080.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    background-color: black;
+    color: white;
+}
